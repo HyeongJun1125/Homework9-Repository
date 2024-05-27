@@ -289,7 +289,7 @@ Node *searchIterative(Node *head, int key)
 	return NULL;
 }
 
-int freeBST(Node *head)
+int freeBST(Node *head) // 트리의 동적 할당 해제
 {
 	Node *ptr = head->left;
 	if (ptr != NULL)
