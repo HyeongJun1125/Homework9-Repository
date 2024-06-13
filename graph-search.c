@@ -200,7 +200,6 @@ void PrintGraph(Graph *graph)
 int main()
 {
     Graph graph;
-    InitializeGraph(&graph);
     char command;
     int vertex, src, dest;
 
